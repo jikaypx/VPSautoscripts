@@ -282,7 +282,7 @@ echo -e "\e[94m    Fail2Ban       :   [ON]                       "
 echo -e "\e[94m    DDOS Deflate   :   [ON]                       "
 echo -e "\e[94m    LibXML Parser  :   {ON]                       "
 echo -e "\e[94m##################################################"
-echo -e "\e[0m                                                  "
+echo -e "\e[94m                                                  "
 read -n1 -r -p "          Press Enter To Show Commands          "
 menu
 cd
