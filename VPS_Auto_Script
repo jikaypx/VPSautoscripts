@@ -2,7 +2,8 @@
 #
 # Original script by fornesia, rzengineer and fawzya
 # Mod by Bustami Arifin
-# Remodified by kikay001
+# Translation by _Dreyannz_
+#Remodified by PHCarl
 # ==================================================
 
 # Initializing Var
@@ -11,14 +12,14 @@ OS=`uname -m`;
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 MYIP2="s/xxxxxxxxx/$MYIP/g";
 
-# Details of kikay001
+# Details of PHCarl
 country=PH
 state=Manila
 locality=Manila
 organization=PHCorner
 organizationalunit=PHCorner
 commonname=PHC
-email=jikaypx@gmail.com
+email=phc.phcorner@gmail.com
 
 # go to root
 cd
@@ -53,15 +54,15 @@ apt-get -y install nginx
 # install essential package
 apt-get -y install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
 
-echo "clear"                                                               >> .bashrc
-echo -e "\e[94m          _    _ _                ___   ___  _             "
-echo -e "\e[94m         | | _(_) | ____ _ _   _ / _ \ / _ \/ |          "
-echo -e "\e[94m         | |/ / | |/ / _` | | | | | | | | | | |         "
-echo -e "\e[94m         |   <| |   < (_| | |_| | |_| | |_| | |             "
-echo -e "\e[94m         |_|\_\_|_|\_\__,_|\__, |\___/ \___/|_|           "
-echo -e "\e[94m                          |___/                    "
+echo "clear"                                                              >> .bashrc
+echo -e "\e[94m         _|_|_|    _|    _|    _|_|_|                      _|            "
+echo -e "\e[94m         _|    _|  _|    _|  _|          _|_|_|  _|  _|_|  _|          "
+echo -e "\e[94m         _|_|_|    _|_|_|_|  _|        _|    _|  _|_|      _|          "
+echo -e "\e[94m         _|        _|    _|  _|        _|    _|  _|        _|              "
+echo -e "\e[94m         _|        _|    _|    _|_|_|    _|_|_|  _|        _|            "
+echo -e "\e[94m.  ---------------------------------------------------------------      "
 echo 'echo -e "\e[94m   #########  ########## #########      ###       "' >> .bashrc
-echo 'echo -e "\e[94m         VPSAutoScripts by kikay001          "' >> .bashrc
+echo 'echo -e "\e[94m         VPSAutoScript by PHCarl          "' >> .bashrc
 echo 'echo -e "\e[0m"'                                                    >> .bashrc
 echo 'echo -e "\e[94m##################################################"' >> .bashrc
 echo 'echo -e "\e[94m#   Commands           Description               #"' >> .bashrc
@@ -90,7 +91,8 @@ rm /etc/nginx/sites-available/default
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/jikaypx/VPSautoscripts/master/nginx.conf"
 mkdir -p /home/vps/public_html
 echo "<pre>Setup by Bustami Arifin</pre>" > /home/vps/public_html/index.html
-echo "<pre>Remodified by kikay001 </pre>"> /home/vps/public_html/index.html
+echo "<pre>Translation by _Dreyannz_</pre>" > /home/vps/public_html/index.html
+echo "<pre>Remodified by PHCarl </pre>"> /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/jikaypx/VPSautoscripts/master/vps.conf"
 service nginx restart
 
@@ -251,14 +253,14 @@ chmod +x screenfetch
 # info
 clear
 echo -e ""
-echo -e "\e[94m          _    _ _                ___   ___  _             "
-echo -e "\e[94m         | | _(_) | ____ _ _   _ / _ \ / _ \/ |          "
-echo -e "\e[94m         | |/ / | |/ / _` | | | | | | | | | | |         "
-echo -e "\e[94m         |   <| |   < (_| | |_| | |_| | |_| | |             "
-echo -e "\e[94m         |_|\_\_|_|\_\__,_|\__, |\___/ \___/|_|           "
-echo -e "\e[94m                          |___/                    "
+echo -e "\e[94m         _|_|_|    _|    _|    _|_|_|                      _|            "
+echo -e "\e[94m         _|    _|  _|    _|  _|          _|_|_|  _|  _|_|  _|          "
+echo -e "\e[94m         _|_|_|    _|_|_|_|  _|        _|    _|  _|_|      _|          "
+echo -e "\e[94m         _|        _|    _|  _|        _|    _|  _|        _|              "
+echo -e "\e[94m         _|        _|    _|    _|_|_|    _|_|_|  _|        _|            "
+echo -e "\e[94m.  ---------------------------------------------------------------      "
 echo -e "\e[94m##################################################"
-echo -e "\e[94m         VPSAutoScript by kikay001                "
+echo -e "\e[94m         VPSAutoScript by PHCarl         "
 echo -e "\e[94m                                                  "
 echo -e "\e[94m                    Services                      "
 echo -e "\e[94m                                                  "
@@ -285,3 +287,4 @@ read -n1 -r -p "          Press Enter To Show Commands          "
 menu
 cd
 rm -f /root/Deb7_AutoScript_VPS.sh
+
