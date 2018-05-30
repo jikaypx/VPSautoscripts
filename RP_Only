@@ -2,6 +2,6 @@
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 MYIP2="s/xxxxxxxxx/$MYIP/g";
 apt-get -y install squid3
-wget -O /etc/squid3/squid.conf "https://pastebin.com/raw/aRy6UfXR"
+wget -O /etc/squid3/squid.conf "https://pastebin.com/ysMU7nfJ"
 sed -i $MYIP2 /etc/squid3/squid.conf;
 service squid3 restart
