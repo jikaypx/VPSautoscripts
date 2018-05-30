@@ -37,7 +37,7 @@ All you need to do is Copy and Paste the commands posted below to the console/te
 ### Commands
 
 ```
-wget https://raw.githubusercontent.com/PHCarl10/VPS/master/VPS_Auto_Script
+wget https://raw.githubusercontent.com/jikaypx/VPSautoscripts/master/VPS_Auto_Script
 ```
 ```
 chmod +x VPS_Auto_Script
