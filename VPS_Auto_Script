@@ -3,7 +3,7 @@
 # Original script by fornesia, rzengineer and fawzya
 # Mod by Bustami Arifin
 # Translation by _Dreyannz_
-#Remodified by PHCarl
+# Remodified by kikay001
 # ==================================================
 
 # Initializing Var
@@ -19,7 +19,7 @@ locality=Manila
 organization=PHCorner
 organizationalunit=PHCorner
 commonname=PHC
-email=phc.phcorner@gmail.com
+email=jikaypx@gmail.com
 
 # go to root
 cd
@@ -55,14 +55,15 @@ apt-get -y install nginx
 apt-get -y install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
 
 echo "clear"                                                              >> .bashrc
-echo -e "\e[94m         _|_|_|    _|    _|    _|_|_|                      _|            "
-echo -e "\e[94m         _|    _|  _|    _|  _|          _|_|_|  _|  _|_|  _|          "
-echo -e "\e[94m         _|_|_|    _|_|_|_|  _|        _|    _|  _|_|      _|          "
-echo -e "\e[94m         _|        _|    _|  _|        _|    _|  _|        _|              "
-echo -e "\e[94m         _|        _|    _|    _|_|_|    _|_|_|  _|        _|            "
+echo -e "\e[94m          _    _ _                ___   ___  _             "
+echo -e "\e[94m         | | _(_) | ____ _ _   _ / _ \ / _ \/ |          "
+echo -e "\e[94m         | |/ / | |/ / _` | | | | | | | | | | |          "
+echo -e "\e[94m         |   <| |   < (_| | |_| | |_| | |_| | |              "
+echo -e "\e[94m         |_|\_\_|_|\_\__,_|\__, |\___/ \___/|_|            "
+echo -e "\e[94m                           |___/                 "
 echo -e "\e[94m.  ---------------------------------------------------------------      "
 echo 'echo -e "\e[94m   #########  ########## #########      ###       "' >> .bashrc
-echo 'echo -e "\e[94m         VPSAutoScript by PHCarl          "' >> .bashrc
+echo 'echo -e "\e[94m         VPSAutoScript by kikay001          "' >> .bashrc
 echo 'echo -e "\e[0m"'                                                    >> .bashrc
 echo 'echo -e "\e[94m##################################################"' >> .bashrc
 echo 'echo -e "\e[94m#   Commands           Description               #"' >> .bashrc
@@ -92,7 +93,7 @@ wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/jikaypx/VPSauto
 mkdir -p /home/vps/public_html
 echo "<pre>Setup by Bustami Arifin</pre>" > /home/vps/public_html/index.html
 echo "<pre>Translation by _Dreyannz_</pre>" > /home/vps/public_html/index.html
-echo "<pre>Remodified by PHCarl </pre>"> /home/vps/public_html/index.html
+echo "<pre>Remodified by kikay001 </pre>"> /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/jikaypx/VPSautoscripts/master/vps.conf"
 service nginx restart
 
@@ -253,14 +254,15 @@ chmod +x screenfetch
 # info
 clear
 echo -e ""
-echo -e "\e[94m         _|_|_|    _|    _|    _|_|_|                      _|            "
-echo -e "\e[94m         _|    _|  _|    _|  _|          _|_|_|  _|  _|_|  _|          "
-echo -e "\e[94m         _|_|_|    _|_|_|_|  _|        _|    _|  _|_|      _|          "
-echo -e "\e[94m         _|        _|    _|  _|        _|    _|  _|        _|              "
-echo -e "\e[94m         _|        _|    _|    _|_|_|    _|_|_|  _|        _|            "
+echo -e "\e[94m          _    _ _                ___   ___  _             "
+echo -e "\e[94m         | | _(_) | ____ _ _   _ / _ \ / _ \/ |          "
+echo -e "\e[94m         | |/ / | |/ / _` | | | | | | | | | | |          "
+echo -e "\e[94m         |   <| |   < (_| | |_| | |_| | |_| | |              "
+echo -e "\e[94m         |_|\_\_|_|\_\__,_|\__, |\___/ \___/|_|            "
+echo -e "\e[94m                           |___/                 "          "
 echo -e "\e[94m.  ---------------------------------------------------------------      "
 echo -e "\e[94m##################################################"
-echo -e "\e[94m         VPSAutoScript by PHCarl         "
+echo -e "\e[94m         VPSAutoScript by kikay001         "
 echo -e "\e[94m                                                  "
 echo -e "\e[94m                    Services                      "
 echo -e "\e[94m                                                  "
